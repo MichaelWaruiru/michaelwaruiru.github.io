@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: hsl(0, 0%, 96%);
+  color: hsl(0, 0%, 20%);
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background: hsl(0, 0%, 13%);
+  color: white;
+  padding: 20px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.about, .projects, .contact {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 0 0 10px hsla(0, 0%, 0%, 0.1);
+  width: 90%;
+  max-width: 800px;
+}
+
+.projects div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.projects div div {
+  background: hsl(83, 80%, 65%);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.projects div div a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: hsl(0, 0%, 13%);
+  font-weight: bold;
+}
+
+.projects div div a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.about {
+  background: orange;
+}
+
+.contact {
+  background: hsl(180, 65%, 81%) !important;
+}
+
+footer {
+  background: rgb(211, 187, 141);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 600px) {
+  .projects div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
