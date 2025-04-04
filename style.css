@@ -39,7 +39,7 @@ section {
 }
 
 .projects div div {
-  background: hsl(83, 80%, 65%);
+  background: hsl(83, 40%, 88%);
   padding: 20px;
   margin: 10px;
   border-radius: 8px;
@@ -50,7 +50,7 @@ section {
 }
 
 .projects div div:hover {
-  background-color: hsl(83, 80%, 45%);
+  background-color: hsl(83, 40%, 58%);
 }
 
 .projects div div a {
