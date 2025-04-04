@@ -22,7 +22,7 @@ section {
   padding: 50px 0;
 }
 
-.about, .projects, .contact {
+.about, .projects, .contact, .resume {
   background: white;
   margin: 20px auto;
   padding: 20px;
@@ -46,6 +46,11 @@ section {
   width: 90%;
   max-width: 300px;
   text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.projects div div:hover {
+  background-color: hsl(83, 80%, 45%);
 }
 
 .projects div div a {
@@ -64,6 +69,21 @@ section {
 
 .about {
   background: orange;
+}
+
+.resume button {
+  background-color: hsl(240, 68%, 72%);
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.resume button:hover {
+  background-color: hsl(240, 68%, 62%);
 }
 
 .contact {
