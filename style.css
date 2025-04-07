@@ -151,3 +151,44 @@ footer a img {
     align-items: center;
   }
 }
+
+.message-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  justify-content: space-between
+}
+
+.message-form label {
+  font-weight: bold;
+  text-align: center;
+}
+
+.message-form input,
+.message-form textarea {
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  width: 100%;
+  resize: vertical;
+}
+
+.message-form button {
+  padding: 10px 20px;
+  background-color: hsl(180, 65%, 40%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.message-form button:hover {
+  background-color: hsl(180, 65%, 30%);
+}
